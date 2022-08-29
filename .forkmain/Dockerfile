@@ -1,7 +1,5 @@
 FROM registry.cn-hongkong.aliyuncs.com/h8rdev/devbox
 
-WORKDIR /workdir
-
 COPY ./ ./
 
 RUN make build
