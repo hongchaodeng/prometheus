@@ -1,6 +1,6 @@
 FROM registry.cn-hongkong.aliyuncs.com/h8rdev/devbox
 
-COPY ./ ./
+COPY --chown=gitpod ./ ./
 
 RUN make build
 
